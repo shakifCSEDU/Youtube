@@ -1,6 +1,9 @@
 import React from "react";
 
 const VideoCard = ({ info }) => {
+
+
+  // Early return
   if (!info) return null;
 
   //console.log(info);
